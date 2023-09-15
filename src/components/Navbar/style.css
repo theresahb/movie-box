@@ -1,0 +1,60 @@
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    column-gap: .6rem;
+}
+
+.icon {
+    width: 2.5rem;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sign {
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.sign p a {
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 1.6rem;
+}
+
+@media (max-width: 700px) {
+    .logo-text {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .sign p {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo-text {
+        display: none;
+    }
+}

@@ -1,0 +1,63 @@
+.card {
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-image img {
+    height: fit-content;
+    object-fit: fill;
+}
+
+.icon-tabler-heart {
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    stroke: rgba(243, 244, 246, 0.904);
+}
+
+.icon-tabler-heart:active {
+    fill: rgba(243, 244, 246, 0.527);
+    backdrop-filter: blur(1px);
+    transition: 1s;
+}
+
+.movie-text {
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: .5rem .7rem;
+}
+
+.movie-text h2 {
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+.movie-text p {
+    font-size: .8rem;
+}
+
+.movie-text small {
+    font-size: .7rem;
+    color: #9CA3AF;
+}
+
+.rating {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-rate {
+    /* justify-content: center; */
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.card-rate p {
+    font-size: .8rem;
+    color: #111827;
+    font-weight: 500;
+}

@@ -1,2 +1,0 @@
-const Access_key=eafe6fce83e2b39dfea6703746cb5c17d
-export default Access_key

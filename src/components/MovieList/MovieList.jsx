@@ -29,7 +29,7 @@ const MovieList = () => {
         })
         .then((actualData) => {
             const movieData = actualData.results
-            setData(movieData.slice(0, 10))
+            setData(movieData)
             console.log(actualData.results)
         })
         .catch((error) => {
